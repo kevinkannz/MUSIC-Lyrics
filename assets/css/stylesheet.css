@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#vidBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#vid {
+    width: 100%;
+    margin-top: -2%;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 103%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+h1 {
+    font-size: 300px;
+    margin-top: -58px;
+    margin-bottom: -20%;
+    color: rgba(0, 0, 0, 0.650);
+}
+
+h2 {
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.650);
+    margin-right: 450px;
+    margin-left: 100px;
+}
+
+#songLyrics {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: -300px;
+    height: 100%;
+    margin-top: -465px;
+    margin-bottom: 4%;
+    margin-right: 30px;
+}
+
+#songTitle {
+    margin-right: 630px;
+    margin-top: 180px;
+}
+
+#songArtist {
+    margin-right: 350px;
+    margin-top: 50px;
+}
+
+pre {
+    font-size: 18px;
+}
+
+#song {
+    color: rgba(255, 255, 255, 0.700);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: flex-start;
+}
